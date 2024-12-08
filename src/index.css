@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.glass {
+	  @apply bg-white bg-opacity-20 backdrop-blur-lg rounded-lg shadow-lg;
+	}
+  }
+  html {
+	scroll-behavior: smooth;
+  }
+	
+  body{
+	/* background-image: url('https://r4.wallpaperflare.com/wallpaper/736/291/696/digital-art-anime-girls-fantasy-art-archer-wallpaper-c950187dd19acddb2607586fb091c60d.jpg'); */
+	/* background-image: url('https://r4.wallpaperflare.com/wallpaper/985/452/866/archer-women-fantasy-art-depth-of-field-wallpaper-09d088cd21cadd8be6b7185f60f1163d.jpg'); */
+	background-image: url('https://r4.wallpaperflare.com/wallpaper/277/499/618/wlop-digital-art-drawing-women-looking-at-viewer-hd-wallpaper-9f44315b960f60a081c9c92540ef1041.jpg');
+	/* background-image: url('https://r4.wallpaperflare.com/wallpaper/519/440/976/digital-art-archer-fantasy-girl-cleavage-wallpaper-b920189d718a8ddbd6d7a88ff0b156cd.jpg'); */
+	/* background-image: url('https://r4.wallpaperflare.com/wallpaper/328/266/395/wlop-artwork-women-digital-art-wallpaper-a21cd88bd7e165f72140730bf5e3a5a3.jpg'); */
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: full;
+	height: full;
+  }
