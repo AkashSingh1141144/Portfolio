@@ -11,6 +11,7 @@ export default {
       },
     },
   },
+  base: "Portfolio",
   plugins: [],
 }
 
